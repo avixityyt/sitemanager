@@ -1,16 +1,16 @@
 plugin:
-    name: 'avixity.sitemanager::lang.plugin.name'
-    description: 'avixity.sitemanager::lang.plugin.description'
+    name: 'Site Manager'
+    description: 'Manage sites for your theme in backend and use with help of components or code use.'
     author: avixity
-    icon: icon-pencil
-    homepage: ''
+    iconSvg: plugins/avixity/sitemanager/smlogo.svg
+    homepage: 'https://github.com/avixityyt/sitemanager'
 navigation:
     main-menu-item:
         label: Site Manager
         url: avixity/sitemanager/sitemanager
-        icon: icon-pencil 
+        iconSvg: plugins/avixity/sitemanager/smlogo.svg
         sideMenu:
             side-menu-item:
-                label: Sites
+                label: Saved Sites
                 url: avixity/sitemanager/sites
-                icon: icon-tag
+                icon: icon-text-format-ul
