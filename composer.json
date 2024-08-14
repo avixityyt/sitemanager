@@ -1,18 +1,9 @@
 {
     "name": "avixity/sitemanager-plugin",
     "type": "october-plugin",
-    "description": "🔗 Manage sites for your theme in backend and use with help of components.",
-    "homepage": "https://github.com/avixityyt/sitemanager",
-    "keywords": [
-        "octobercms-plugin",
-        "octobercms",
-        "php",
-        "sitemanager",
-        "urlmanager"
-    ], 
+    "description": "Manage sites for your theme in backend and use with help of components.",
     "require": {
         "october/rain": "^3.0",
         "composer/installers": "~1.0"
-    },
-    "license": "MIT"
+    }
 }
