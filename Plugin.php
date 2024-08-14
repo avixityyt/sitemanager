@@ -6,6 +6,9 @@ class Plugin extends PluginBase
 {
     public function registerComponents()
     {
+        return [
+            'Avixity\SiteManager\Components\SiteManager' => 'siteManager'
+        ];
     }
 
 

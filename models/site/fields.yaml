@@ -1,11 +1,21 @@
 fields:
-    title:
-        label: 'Site title'
-        oc.commentPosition: ''
-        span: full
-        type: text
-    url:
-        label: 'Site URL'
-        oc.commentPosition: ''
-        span: full
-        type: text
+  title:
+    label: "Site title"
+    oc.commentPosition: ""
+    span: full
+    type: text
+  url:
+    label: "Site URL"
+    oc.commentPosition: ""
+    span: full
+    type: text
+  category:
+    label: "Site Category"
+    oc.commentPosition: ""
+    span: full
+    type: text
+  is_active:
+    type: checkbox
+    label: Display Site
+    comment: 'checkmark to change sites visibility state'
+    default: true

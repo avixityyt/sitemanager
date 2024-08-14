@@ -1,8 +1,13 @@
 ## Site Manager
 🔗 Manage sites for your theme in backend and use with help of components to display them.
 
+Manage sites for your theme in admin backend and use with help of components to display them and/or use code to manage them + with help of components.
+### NOTE
+> This is my first plugin, and it took a hot min to figure out, but more updates and fixes coming;
+
 ## Requirements
 - October CMS 2 & above
+- Basic understanding of PHP & OctoberCMS itself.
 
 ### Installation
 ```bash
@@ -11,7 +16,7 @@ php artisan plugin:install avixity.sitemanager
 
 ### Why Is This Plugin Neccessary?
 
-Efficiently manage and organize your website's essential site information with our Site Manager plugin. Easily create, edit, delete site information, and use them in your themes.
+Efficiently manage and organize your website's essential site information with our Site Manager plugin. Easily create, edit, delete, search site information data, and use them in your themes and/or other plugins.
 
 ## Documentation
 
@@ -19,5 +24,18 @@ Efficiently manage and organize your website's essential site information with o
 2. In the backend you'll see "Site Manager" button, by clicking it and then on "Sites", you'll be taken to where you'll be adding your site informations.
 3. After adding x amount of your desired site informations, you put the conponent where you'll do .forEach and manage each site for your theme/general needs.
 
+## Using In Code
+
+- Required to add the siteManager to get the database queries of data.
+```php
+[siteManager]
+==
+<body>
+{% for post in siteManager.listSites %}
+    <h3>{{ post.title }}</h3>
+        <h5>{{ post.url }}</h5>
+{% endfor %}
+</body>
+```
 ### License
-This package is licensed under the MIT License [MIT](https://opensource.org/licenses/MIT-LICENSE.txt)
+This package is licensed under the MIT License [MIT](https://github.com/avixityyt/sitemanager/blob/main/LICENSE)

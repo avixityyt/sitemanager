@@ -14,13 +14,13 @@ class Site extends Model
      */
     public $rules = [
     ];
-    public $fillable = ['title', 'url']; // Allow these for mass assignment
+    public $fillable = ['title', 'url', 'is_active', 'category']; // Allow these for mass assignment
 
     /*
      * Disable timestamps by default.
      * Remove this line if timestamps are defined in the database table.
      */
-    public $timestamps = false;
+    public $timestamps = true;
 
     /**
      * @var string The database table used by the model.
