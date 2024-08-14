@@ -1,0 +1,11 @@
+name: Sites
+modelClass: Avixity\Movies\Models\Site
+form: $/avixity/movies/models/site/fields.yaml
+defaultRedirect: avixity/sitemanager/sites
+create:
+    redirect: 'avixity/sitemanager/sites/update/:id'
+    redirectClose: avixity/sitemanager/sites
+update:
+    redirect: avixity/sitemanager/sites
+    redirectClose: avixity/sitemanager/sites
+preview: {  }

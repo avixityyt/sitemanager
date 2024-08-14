@@ -1,0 +1,11 @@
+fields:
+    title:
+        label: 'Site title'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    url:
+        label: 'Site URL'
+        oc.commentPosition: ''
+        span: full
+        type: text

@@ -1,0 +1,16 @@
+plugin:
+    name: 'avixity.sitemanager::lang.plugin.name'
+    description: 'avixity.sitemanager::lang.plugin.description'
+    author: avixity
+    icon: icon-pencil
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Site Manager
+        url: avixity/sitemanager/sitemanager
+        icon: icon-pencil 
+        sideMenu:
+            side-menu-item:
+                label: Sites
+                url: avixity/sitemanager/sites
+                icon: icon-tag

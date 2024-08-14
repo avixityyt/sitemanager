@@ -1,0 +1,10 @@
+columns:
+    title:
+        label: 'Site title'
+        type: text
+        searchable: true
+        sortable: true
+    url:
+        label: 'Site URL'
+        type: text
+        sortable: false
