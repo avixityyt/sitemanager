@@ -15,7 +15,7 @@ class Plugin extends PluginBase
     public function registerFormWidgets()
     {
         return [
-            'Avixity\Movies\FormWidgets\Actorbox' => [
+            'Avixity\SiteManager\FormWidgets\Actorbox' => [
                 'label' => 'Actorbox field',
                 'code'  => 'actorbox'
             ]    

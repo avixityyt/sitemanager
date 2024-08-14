@@ -1,7 +1,6 @@
 ## Site Manager
-🔗 Manage sites for your theme in backend and use with help of components to display them.
+🔗 Manage sites for your theme in admin backend and use with help of components to display them and/or use code to manage them + with help of components.
 
-Manage sites for your theme in admin backend and use with help of components to display them and/or use code to manage them + with help of components.
 ### NOTE
 > This is my first plugin, and it took a hot min to figure out, but more updates and fixes coming;
 
@@ -26,14 +25,17 @@ Efficiently manage and organize your website's essential site information with o
 
 ## Using In Code
 
-- Required to add the siteManager to get the database queries of data.
+- Required to add the [siteManager] to get the database queries of data.
 ```php
 [siteManager]
 ==
 <body>
 {% for post in siteManager.listSites %}
-    <h3>{{ post.title }}</h3>
-        <h5>{{ post.url }}</h5>
+    {% if post.is_active == 1 %}
+        <h3>{{ post.title }}</h3>
+            <h5>{{ post.url }}</h5>
+                <h6>{{ post.category }}</h6>
+    {% endif %}
 {% endfor %}
 </body>
 ```
