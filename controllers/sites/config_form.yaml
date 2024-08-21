@@ -3,8 +3,8 @@ form: $/avixity/sitemanager/models/site/fields.yaml
 modelClass: Avixity\SiteManager\Models\Site
 defaultRedirect: avixity/sitemanager/sites
 create:
-    redirect: 'avixity/sitemanager/sites/update/:id'
-    redirectClose: avixity/sitemanager/sites
+  redirect: "avixity/sitemanager/sites/update/:id"
+  redirectClose: avixity/sitemanager/sites
 update:
-    redirect: avixity/sitemanager/sites
-    redirectClose: avixity/sitemanager/sites
+  redirect: avixity/sitemanager/sites
+  redirectClose: avixity/sitemanager/sites

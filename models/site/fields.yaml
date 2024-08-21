@@ -14,6 +14,12 @@ fields:
     oc.commentPosition: ""
     span: full
     type: text
+  description:
+    label: "Site Description"
+    oc.commentPosition: ""
+    span: full
+    type: textarea
+    size: giant
   is_active:
     type: checkbox
     label: Display Site

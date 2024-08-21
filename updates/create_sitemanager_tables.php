@@ -11,11 +11,12 @@ class CreateAvixitySiteManagerSites extends Migration
         {
             $table->engine = 'InnoDB';
             $table->increments('id');
-            $table->string('title')->default(null);
+            $table->text('title')->default(null);
             $table->string('url')->default(null);
             $table->timestamps();
             $table->boolean('is_active')->default(0);
             $table->string('category')->nullable()->default(null);
+            $table->text('description')->nullable()->default(null);
         });
     }
     

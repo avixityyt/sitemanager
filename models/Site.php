@@ -14,7 +14,7 @@ class Site extends Model
      */
     public $rules = [
     ];
-    public $fillable = ['title', 'url', 'is_active', 'category']; // Allow these for mass assignment
+    public $fillable = ['title', 'url', 'is_active', 'category', 'description']; // Allow these for mass assignment
 
     /*
      * Disable timestamps by default.

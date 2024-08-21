@@ -1,11 +1,11 @@
-list: $/Avixity/sitemanager/models/site/columns.yaml
+list: $/avixity/sitemanager/models/site/columns.yaml
 modelClass: Avixity\SiteManager\Models\Site
 title: Sites
-noRecordsMessage: 'backend::lang.list.no_records'
+noRecordsMessage: "backend::lang.list.no_records"
 showSetup: true
 showCheckboxes: true
 toolbar:
-    buttons: list_toolbar
-    search:
-        prompt: 'backend::lang.list.search_prompt'
-recordUrl: 'avixity/sitemanager/sites/update/:id'
+  buttons: list_toolbar
+  search:
+    prompt: "backend::lang.list.search_prompt"
+recordUrl: "avixity/sitemanager/sites/update/:id"

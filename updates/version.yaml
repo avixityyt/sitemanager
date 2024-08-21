@@ -3,3 +3,8 @@
 1.0.2:
     - 'Created table sitemanager sites'
     - create_sitemanager_tables.php
+2.0.1:
+    - 'Updated migration table with new settings'
+    - 'Some Fixes & Bugfixes'
+    - 'Added new "description" field to site editor'
+    - 'Expanded length of "description" field to site editor to a larger text amount'
