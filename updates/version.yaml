@@ -3,11 +3,11 @@
 1.0.2:
     - 'Created table sitemanager sites'
     - create_sitemanager_tables.php
-2.0.1:
+1.2.1:
     - 'Updated migration table with new settings'
     - 'Some Fixes & Bugfixes'
     - 'Added new "description" field to site editor'
     - 'Expanded length of "description" field to site editor to a larger text amount'
-2.0.2:
+1.2.2:
     - 'Changed theme backend icon to a allowed type icon'
     - 'Edited README.md with new information & images for OCMS Marketplace for SiteManager ( forgot to mention previous version )'
